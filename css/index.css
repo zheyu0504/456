@@ -15,6 +15,16 @@ html{
 	height: 0;
 }
 
+.rwd{
+	position: fixed;
+	top: 50%;
+	left: 0;
+	height: 30%;
+	transform: translateY(-50%);
+	z-index: 999;
+	cursor: pointer;
+}
+
 .nav-b{
 	position: relative;
 	padding: 5px 30px;
@@ -651,7 +661,9 @@ footer{
 	#mean,.shop,#event,#contact,#footer{
 		height: 100%;
 	}
-	
+	.rwd{
+		display: none;
+	}
 	
 	.col-sm-12{
 		margin-bottom: 20px;
